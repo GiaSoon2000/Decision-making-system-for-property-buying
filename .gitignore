@@ -1,0 +1,15 @@
+ 
+# Node.js dependencies
+frontend/node_modules/
+
+# Build and cache files
+frontend/.next/
+frontend/dist/
+frontend/package-lock.json
+
+# Python cache
+backend/__pycache__/
+backend/static/
+
+# IDE settings
+*.vsix
