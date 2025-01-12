@@ -30,7 +30,7 @@ class Config:
     # Your existing configurations
     MYSQL_HOST = os.getenv('MYSQL_HOST', 'localhost')
     MYSQL_USER = os.getenv('MYSQL_USER', 'root')
-    MYSQL_PASSWORD = os.getenv('MYSQL_PASSWORD', 'WW15257Z')
+    MYSQL_PASSWORD = os.getenv('MYSQL_PASSWORD')
     MYSQL_DB = os.getenv('MYSQL_DB', 'property_db')
     
     # OpenAI configuration
@@ -38,7 +38,7 @@ class Config:
     OPENAI_MODEL = os.getenv('OPENAI_MODEL', 'gpt-4o-mini ')
     
     # Flask configuration
-    SECRET_KEY = os.getenv('FLASK_SECRET_KEY', 'WW15257Z!')
+    SECRET_KEY = os.getenv('FLASK_SECRET_KEY')
     
     # Other configurations...
     UPLOAD_FOLDER = 'static/images/property_images'
